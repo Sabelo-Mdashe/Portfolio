@@ -26,20 +26,64 @@
       .selby {
         color: rgb(211, 43, 226);
       }
+      .display1 {
+        display: flex;
+        justify-content: space-between;
+      }
+      table {
+        background-color: aqua;
+      }
     </style>
   </head>
   <body>
     <h1>Sabelo <span class="selby">Selby</span> Mdashe</h1>
     <h3>I am a Full Stack Developer</h3>
     <br />
-    <span>
-      <h4>Uefa Champions League Final</h4>
-      <img src="audience.jpg" alt="fans watching a football game" />
-    </span>
-    <span>
-      <!-- <table>
-        <th>Skills</th>
-      </table> -->
-    </span>
+    <div class="display1">
+      <span>
+        <h4>Uefa Champions League Final</h4>
+        <img src="audience.jpg" alt="fans watching a football game" />
+      </span>
+      <span>
+        <h4 style="color: yellow">Skills Table</h4>
+        <table border="3pt" style="font-size: 25px">
+          <th>Skill</th>
+          <th>Front/Back-End</th>
+
+          <tr>
+            <td>HTML</td>
+            <td>Front-End</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>Front-End</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>Front & Back-End</td>
+          </tr>
+          <tr>
+            <td>Bootstrap</td>
+            <td>Front-End</td>
+          </tr>
+          <tr>
+            <td>Node.JS</td>
+            <td>Back-End</td>
+          </tr>
+          <tr>
+            <td>MySQL</td>
+            <td>Back-End</td>
+          </tr>
+          <tr>
+            <td>JSON</td>
+            <td>Back-End</td>
+          </tr>
+          <tr>
+            <td>React</td>
+            <td>Back-End</td>
+          </tr>
+        </table>
+      </span>
+    </div>
   </body>
 </html>
